@@ -5,6 +5,7 @@ phases:
   install:
     commands:
       - npm install
+      - npm install -g serverless
   build:
     commands:
       # - eslint **/*.js --ignore-pattern node_modules/
