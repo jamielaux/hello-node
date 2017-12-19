@@ -4,7 +4,8 @@
   "description": "Hello, world AWS Lambda function",
   "main": "handler.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint **/*.js --ignore-pattern node_modules/"
   },
   "repository": {
     "type": "git",

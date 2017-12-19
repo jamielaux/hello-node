@@ -4,11 +4,13 @@ version: 0.2
 phases:
   install:
     commands:
-      - npm install
+      - npm install -g npm
       - npm install -g serverless
+      - npm install
+      - npm --version
   build:
     commands:
-      # - eslint **/*.js --ignore-pattern node_modules/
+      - npm run-script lint
       - npm test
   post_build:
     commands:
