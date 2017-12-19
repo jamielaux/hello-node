@@ -1,0 +1,15 @@
+---
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - npm install
+  build:
+    commands:
+      # - eslint **/*.js --ignore-pattern node_modules/
+      - npm test
+  post_build:
+    commands:
+      - serverless deploy --stage dev
+...

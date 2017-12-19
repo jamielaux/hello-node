@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/1Strategy/hello-node#readme",
   "devDependencies": {
+    "eslint": "^4.13.1",
     "jest": "^22.0.1"
   }
 }
