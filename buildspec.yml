@@ -14,5 +14,5 @@ phases:
       - npm test
   post_build:
     commands:
-      - SLS_DEBUG=true serverless deploy --stage dev
+      - serverless deploy --stage dev
 ...
