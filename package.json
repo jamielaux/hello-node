@@ -1,0 +1,27 @@
+{
+  "name": "hello-node",
+  "version": "1.0.0",
+  "description": "Hello, world AWS Lambda function",
+  "main": "handler.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Strategy/hello-node.git"
+  },
+  "keywords": [
+    "aws-lambda",
+    "jest",
+    "nodejs"
+  ],
+  "author": "Doug Ireton",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/1Strategy/hello-node/issues"
+  },
+  "homepage": "https://github.com/1Strategy/hello-node#readme",
+  "devDependencies": {
+    "jest": "^22.0.1"
+  }
+}
